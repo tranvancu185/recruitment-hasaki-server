@@ -1,0 +1,45 @@
+{
+  "name": "recruitment-server-cntt2",
+  "version": "1.0.0",
+  "description": "Server for recruitment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r ./aliases.js index.js",
+    "start": "node -r ./aliases.js index.js",
+    "dev-debug": "nodemon --inspect -r ./aliases.js index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tranvancu185/recruitment-server-cntt2.git"
+  },
+  "keywords": [
+    "recruitment-server"
+  ],
+  "author": "Vey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tranvancu185/recruitment-server-cntt2/issues"
+  },
+  "homepage": "https://github.com/tranvancu185/recruitment-server-cntt2#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.0",
+    "mariadb": "^3.1.2",
+    "module-alias": "^2.2.3",
+    "mysql2": "^3.5.2",
+    "nanoid": "^4.0.2",
+    "node-telegram-bot-api": "^0.61.0",
+    "openai": "^3.3.0",
+    "sequelize": "^6.32.1",
+    "winston": "^3.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

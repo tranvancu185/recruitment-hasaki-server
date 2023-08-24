@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "name": "Debug Express",
+            "program": "${workspaceFolder}/index.js",
+            "request": "launch",
+            "restart": true,
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node",
+            "runtimeExecutable": "yarn",
+            "runtimeArgs": [
+                "dev-debug"
+            ],
+            "env": {
+                "PORT": "5000"
+            }
+        }
+    ]
+}
